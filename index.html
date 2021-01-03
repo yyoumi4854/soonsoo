@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>순수치킨</title>
+    <!-- css -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header">
+      <div class="header_top">
+        <div class="inner">
+          <h1><a href="#"><img src="images/logo.jpg" alt="순수치킨"></a></h1>
+
+          <div class="header_left">
+            <div class="header_left_txt">
+              <p>창업상담</p>
+              <strong>1833 - 2056</strong>
+            </div>
+          </div>
+
+          <div class="gnb_m_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="sns_list">
+            <a href="#"><img src="images/sns_insta.jpg" alt="인스타그램"></a>
+            <a href="#"><img src="images/sns_facebook.jpg" alt="페이스북"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gnb_pc -->
+    <div id="gnb_pc">
+      <div class="inner">
+        <ul class="dep1">
+          <li>
+            <a href="#">순수시대</a>
+            <ul class="dep2">
+              <li><a href="#">CEO인사말</a></li>
+              <li><a href="#">브랜드 스토리</a></li>
+              <li><a href="#">배달로 대박</a></li>
+              <li><a href="#">오직 맛으로 승부</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">순수한 메뉴</a>
+            <ul class="dep2">
+              <li><a href="#">치킨메뉴</a></li>
+              <li><a href="#">사이드메뉴</a></li>
+              <li><a href="#">홀메뉴</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">바른 창업하기</a>
+            <ul class="dep2">
+              <li><a href="#">창업비용</a></li>
+              <li><a href="#">성공노하우</a></li>
+              <li><a href="#">생생 인터뷰</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">매장안내</a>
+            <ul class="dep2">
+              <li><a href="#">매장 찾기</a></li>
+              <li><a href="#">계약/오픈 현황</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">새소식</a>
+            <ul class="dep2">
+              <li><a href="#">새소식</a></li>
+              <li><a href="#">SNS</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="bar"></div>
+      </div>
+      <div class="gnb_bg"></div>
+    </div>
+    <div id="gnb_m">
+      <div class="con">
+        <!-- 로고 -->
+        <div class="top_txt">
+          <img src="images/logo.jpg" alt="순수치킨">
+        </div>
+
+        <!-- 퀵메뉴 -->
+        <div class="quick_list">
+          <div class="inner">
+            <ul>
+              <li>
+                <a href="tel : 1833-2056">
+                  <div class="txt">
+                    <p>창업상담</p>
+                    <strong>1833-2056</strong>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#question">
+                  <div class="txt">
+                    <p>창업문의</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 메뉴 -->
+        <div class="gnb_con">
+          <ul class="dep1">
+            <li>
+              <a href="#">순수시대</a>
+              <ul class="dep2">
+                <li><a href="#">CEO인사말</a></li>
+                <li><a href="#">브랜드 스토리</a></li>
+                <li><a href="#">배달로 대박</a></li>
+                <li><a href="#">오직 맛으로 승부</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">순수한 메뉴</a>
+              <ul class="dep2">
+                <li><a href="#">치킨메뉴</a></li>
+                <li><a href="#">사이드메뉴</a></li>
+                <li><a href="#">홀메뉴</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">바른 창업하기</a>
+              <ul class="dep2">
+                <li><a href="#">창업비용</a></li>
+                <li><a href="#">성공노하우</a></li>
+                <li><a href="#">생생 인터뷰</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">매장안내</a>
+              <ul class="dep2">
+                <li><a href="#">매장 찾기</a></li>
+                <li><a href="#">계약/오픈 현황</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">새소식</a>
+              <ul class="dep2">
+                <li><a href="#">새소식</a></li>
+                <li><a href="#">SNS</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 닫기 -->
+        <a href="#" class="gnb_close_btn"></a>
+      </div>
+    </div>
+
+    <!-- main_visual -->
+    <div class="main">
+      <!-- Swiper -->
+      <div class="swiper-container main_visual">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/main_visual_01_pc.jpg" alt="와사마요 간장치킨" class="pc_slide">
+            <img src="images/main_visual_01_m.jpg" alt="와사마요 간장치킨" class="m_slide">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/main_visual_02_pc.jpg" alt="순수치킨 배달어플 3관왕 달성" class="pc_slide">
+            <img src="images/main_visual_02_m.jpg" alt="순수치킨 배달어플 3관왕 달성" class="m_slide">
+          </div>
+        </div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div id="content">
+      <!-- con1 -->
+      <div class="main_con main_con1">
+        <div class="inner">
+          <h2>순수한 마음가짐</h2>
+          <p class="main_txt">
+            <span>바르게 만들어서 </span><span>맛있게 서비스하다.</span><br>
+            순수치킨은 “올바르게 만든 맛있는 치킨”라는 슬로건을 걸고<br>
+            진실하게, 성실하게 그리고 진실한 마음으로 음식을 만들겠습니다.
+          </p>
+
+          <div class="con">
+            <div class="box box1 box_top">
+              <div class="box_img">
+                <img src="images/con_box1.jpg" alt="맛있는 치킨을 위한 고집">
+                <div class="box_txt">
+                  <p>
+                    <span>순수치킨</span>은<br>
+                    오직 맛있는 치킨을 만들기 위해<br><br>
+
+                    <span>천연재료를 사용</span>하며,<br>
+                    비용이 더 발생하더라도 치킨 속살의 부드러움을 위해<br>
+                    다른 치킨과는 달리<br>
+                    <span>닭고기를 숙성하는 방식으로 가맹점에 제공</span>합니다.
+                  </p>
+                </div>
+              </div>
+              <p># 맛있는 치킨을 위한 고집</p>
+            </div>
+
+            <div class="box box2 box_top">
+              <div class="box_img">
+                <img src="images/con_box2.jpg" alt="안전하고 맛있는 수제 피클무">
+                <div class="box_txt">
+                  <p>
+                    <span>순수치킨</span>은<br>
+                    본사 직영 공장에서 손수 수제 피클무를 생산합니다.<br><br>
+
+                    수제 피클무를 만들 때<br>
+                    몸에 해로운 <span>화학 첨가물을 사용하지 않습니다.</span><br>
+                    향긋한 향을 내기 위해<br>
+                    <span>천연 허브를 사용하며 설탕, 식초</span>를<br>
+                    수 시간 동안 끓이고 식히기를 반복하여<br>
+                    순수치킨 수제 피클무를 생산합니다.
+                  </p>
+                </div>
+              </div>
+              <p># 안전하고 맛있는 수제 피클무</p>
+            </div>
+
+            <div class="box box3">
+              <div class="box_img">
+                <img src="images/con_box3.jpg" alt="엄마손처럼 푸짐하게">
+                <div class="box_txt">
+                  <p>
+                    <span>순수치킨</span>은<br>
+                    <span>넉넉한 '곁들임'을 자랑</span> 합니다.<br><br>
+
+                    누구나 좋아하는<br>
+                    바삭한 감자칩과 연근칩을 추가 구성으로 제공하며<br>
+                    달고기의 크기마저도<br>
+                    일반적인 10호 보다 더 큰 11호를 사용하는 등<br>
+                    마치 <span>'친정 엄마'처럼 손이 아주 큽니다.</span>
+                  </p>
+                </div>
+              </div>
+              <p># 엄마손처럼 푸짐하게~</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- con2 -->
+      <div class="main_con main_con2">
+        <div class="inner">
+          <h2>BIG 6 특제 소스</h2>
+          <p class="main_txt">
+            <span>대중성과 차별성</span><span>을 동시에 잡은 특제소스</span><br>
+            불필요한 비인기 소스는 과감히 버렸습니다.
+          </p>
+
+          <div class="con">
+            <div class="main_con2_visual_con">
+              <!-- Swiper -->
+              <div class="swiper-container main_con2_visual">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="images/goma.png" alt="고마치킨" class="chicken_img">
+                    <div class="chicken_txt">
+                      <div class="tit">
+                        <strong>고마치킨</strong>
+                        <span><img src="images/pepper.png" alt="고추"></span>
+                        <span><img src="images/garlic.png" alt="마늘"></span>
+                      </div>
+                      <p class="txt">
+                        각종 고추와 마늘 토핑으로 감칠맛을 살리고<br>
+                        기존 고추치킨보다 매운맛을 줄인 새콤달콤한 "고추마늘치킨"
+                      </p>
+                      <div class="chicken_price">
+                        <p><span>한마리</span><span>18,000원</span></p>
+                        <p><span>윙봉</span><span>18,000원</span></p>
+                        <p><span>순살</span><span>19,000원</span></p>
+                      </div>
+                      <img src="images/chicken_best.png" alt="베스트" class="chicken_best">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/yangnyeom.png" alt="사과 양념치킨" class="chicken_img">
+                    <div class="chicken_txt">
+                      <div class="tit">
+                        <strong>사과 양념치킨</strong>
+                        <span><img src="images/apple.png" alt="사과"></span>
+                      </div>
+                      <p class="txt">
+                        소스에 사과를 갈아넣고 신선한 사과를 토핑한<br>
+                        "사과양념치킨"
+                      </p>
+                      <div class="chicken_price">
+                        <p><span>한마리</span><span>18,000원</span></p>
+                        <p><span>윙봉</span><span>18,000원</span></p>
+                        <p><span>순살</span><span>19,000원</span></p>
+                      </div>
+                      <img src="images/chicken_best.png" alt="베스트" class="chicken_best">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/ganjang.png" alt="벌꿀 간장치킨" class="chicken_img">
+                    <div class="chicken_txt">
+                      <div class="tit">
+                        <strong>벌꿀 간장치킨</strong>
+                        <span><img src="images/honey.png" alt="벌꿀"></span>
+                        <span><img src="images/soy.png" alt="간장"></span>
+                      </div>
+                      <p class="txt">
+                        달콤 짭조름한 간장 소스의 단맛을 벌꿀로 낸<br>
+                        고급스러운 맛의 "벌꿀간장치킨"
+                      </p>
+                      <div class="chicken_price">
+                        <p><span>한마리</span><span>18,000원</span></p>
+                        <p><span>윙봉</span><span>18,000원</span></p>
+                        <p><span>순살</span><span>19,000원</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/maneul.png" alt="마늘 듬뿍 마늘치킨" class="chicken_img">
+                    <div class="chicken_txt">
+                      <div class="tit">
+                        <strong>마늘 듬뿍 마늘치킨</strong>
+                        <span><img src="images/garlic.png" alt="마늘"></span>
+                      </div>
+                      <p class="txt">
+                        마늘의 알싸함을 없애고<br>
+                        특유의 풍미만 살려 듬뿍 넣고 튀긴 통마늘을 토핑으로 한 번 더!<br class="hide">
+                        "순수마늘치킨"
+                      </p>
+                      <div class="chicken_price">
+                        <p><span>한마리</span><span>18,000원</span></p>
+                        <p><span>윙봉</span><span>18,000원</span></p>
+                        <p><span>순살</span><span>19,000원</span></p>
+                      </div>
+                      <img src="images/chicken_best.png" alt="베스트" class="chicken_best">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/gochu.png" alt="고추 듬뿍 고추치킨" class="chicken_img">
+                    <div class="chicken_txt">
+                      <div class="tit">
+                        <strong>고추 듬뿍 고추치킨</strong>
+                        <span><img src="images/pepper.png" alt="고추"></span>
+                      </div>
+                      <p class="txt">
+                        맛있게 매운 특제 그릴드 핫소스에<br>
+                        청양고추를 송송 썰어 토핑 "순수고추치킨"
+                      </p>
+                      <div class="chicken_price">
+                        <p><span>한마리</span><span>18,000원</span></p>
+                        <p><span>윙봉</span><span>18,000원</span></p>
+                        <p><span>순살</span><span>19,000원</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/kkultteog.png" alt="허니꿀떡치킨" class="chicken_img">
+                    <div class="chicken_txt">
+                      <div class="tit">
+                        <strong>허니꿀떡치킨</strong>
+                        <span><img src="images/honey.png" alt="벌꿀"></span>
+                      </div>
+                      <p class="txt">
+                        얇~고 바삭한 윙봉에 달콤한 허니 봉봉소스를 촤~악!<br class="hide">
+                        거기에 꿀떡토핑! 이것은 신의 한수? "허니봉봉"
+                      </p>
+                      <div class="chicken_price">
+                        <p><span>한마리</span><span>18,000원</span></p>
+                        <p><span>윙봉</span><span>18,000원</span></p>
+                        <p><span>순살</span><span>19,000원</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination main_con2_pagination"></div>
+            </div>
+            <a href="#" class="chicken_menu_more">
+              <img src="images/chicken_menu_more_ico.png" alt="순수치킨 메뉴 더보기">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- con3 -->
+      <div class="main_con main_con3">
+        <div class="inner">
+          <h2>뼈대만 남은 창업비용</h2>
+          <p class="main_txt">
+            700만원부터 창업 가능<br>
+            인테리어, 주방집기 등 가맹점 자율 시공 가능<br>
+            개설비용을 절약해 홍보비로 투자
+          </p>
+          <a href="#" class="more_btn">자세히 보기</a>
+        </div>
+      </div>
+
+      <!-- con4 -->
+      <div class="main_con main_con4">
+        <div class="inner">
+          <h2>계약/오픈현황</h2>
+
+          <div class="con">
+            <div class="con4_box">
+              <!-- 오픈현황 -->
+              <div class="status_box">
+                <div class="status_box_tit">
+                  <p>오픈현황</p>
+                </div>
+                <div class="swiper-container open_visual">
+                  <div class="swiper-wrapper">
+                    <!-- slide1 -->
+                    <div class="swiper-slide">
+                      <div class="img_box">
+                        <img src="images/main_con4_open1.jpg" alt="광주 양산점">
+                      </div>
+                      <div class="con4_txt_box">
+                        <ul class="tit_box">
+                          <li><strong>광주 양산점</strong></li>
+                          <li><strong>오픈</strong><span>2020-05-29</span></li>
+                        </ul>
+                        <ul class="txt_box">
+                            <li>
+                              <span>주소</span><span>광주광역시 북구 양산동 817</span>
+                            </li>
+                            <li>
+                              <span>매장전화</span><span>062-571-1541</span>
+                            </li>
+                          </ul>
+                      </div>
+                    </div>
+                    <!-- slide2 -->
+                    <div class="swiper-slide">
+                      <div class="img_box">
+                        <div class="img_box">
+                          <img src="images/main_con4_open2.jpg" alt="서울 방화점">
+                        </div>
+                      </div>
+                      <div class="con4_txt_box">
+                        <ul class="tit_box">
+                          <li><strong>서울 방화점</strong></li>
+                          <li><strong>오픈</strong><span>2020-05-28</span></li>
+                        </ul>
+                        <ul class="txt_box">
+                            <li>
+                              <span>주소</span><span>서울특별시 강서구 방화동 251-10</span>
+                            </li>
+                            <li>
+                              <span>매장전화</span><span>02-2666-7969</span>
+                            </li>
+                          </ul>
+                      </div>
+                    </div>
+                    <!-- slide3 -->
+                    <div class="swiper-slide">
+                      <div class="img_box">
+                        <img src="images/main_con4_open3.jpg" alt="부산 남산점">
+                      </div>
+                      <div class="con4_txt_box">
+                        <ul class="tit_box">
+                          <li><strong>부산 남산점</strong></li>
+                          <li><strong>오픈</strong><span>2020-05-28</span></li>
+                        </ul>
+                        <ul class="txt_box">
+                            <li>
+                              <span>주소</span><span>부산광역시 금정구 남산동 256-6</span>
+                            </li>
+                            <li>
+                              <span>매장전화</span><span>051-582-3393</span>
+                            </li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next open_next"></div>
+                <div class="swiper-button-prev open_prev"></div>
+              </div>
+              <!-- 계약현황 -->
+              <div class="status_box">
+                <div class="status_box_tit">
+                  <p>계약현황</p>
+                </div>
+                <div class="swiper-container contract_visual">
+                  <div class="swiper-wrapper">
+                    <!-- slide1 -->
+                    <div class="swiper-slide">
+                      <div class="img_box">
+                        <img src="images/main_con4_contract1.jpg" alt="성남 서현점">
+                      </div>
+                      <div class="con4_txt_box">
+                        <ul class="tit_box">
+                          <li><strong>성남 서현점</strong></li>
+                          <li><strong>계약</strong><span>2020-05-29</span></li>
+                        </ul>
+                        <ul class="txt_box">
+                            <li>
+                              <span>주소</span><span>경기도 성남시 분당구 서현동 298-3번지</span>
+                            </li>
+                          </ul>
+                      </div>
+                    </div>
+                    <!-- slide2 -->
+                    <div class="swiper-slide">
+                      <div class="img_box">
+                        <img src="images/main_con4_contract2.jpg" alt="울산 달동점">
+                      </div>
+                      <div class="con4_txt_box">
+                        <ul class="tit_box">
+                          <li><strong>울산 달동점</strong></li>
+                          <li><strong>계약</strong><span>2020-05-28</span></li>
+                        </ul>
+                        <ul class="txt_box">
+                            <li>
+                              <span>주소</span><span>울산광역시 남구 달동 587-6번지</span>
+                            </li>
+                          </ul>
+                      </div>
+                    </div>
+                    <!-- slide3 -->
+                    <div class="swiper-slide">
+                      <div class="img_box">
+                        <img src="images/main_con4_contract3.jpg" alt="광주 수완점">
+                      </div>
+                      <div class="con4_txt_box">
+                        <ul class="tit_box">
+                          <li><strong>광주 수완점</strong></li>
+                          <li><strong>계약</strong><span>2020-05-26</span></li>
+                        </ul>
+                        <ul class="txt_box">
+                            <li>
+                              <span>주소</span><span>광주광역시 광산구 장덕동 1689 새한포유아파트 상가동 107호</span>
+                            </li>
+                          </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next contract_next"></div>
+                <div class="swiper-button-prev contract_prev"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="more_btn">자세히 보기</a>
+        </div>
+      </div>
+
+      <!-- con5 -->
+      <div class="main_con main_con5">
+        <div class="inner">
+          <div class="news_box con5">
+            <h3>순수치킨 소식</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <p>성공창업을 위한 최고의 선택! 순수치킨을 추천합니다.</p>
+                  <span>2020-05-09</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>좋은 브랜드는 리뷰로 말한다.</p>
+                  <span>2020-04-14</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>뼈대만 남은 창업비용 + 개설비용 한시적 면제로 진정한 가성비 창업에 도전하다!</p>
+                  <span>2020-04-03</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>가맹점을 위한 현장 밀착교육, 오픈 행사를 가맹본부가 든든히 지원합니다!</p>
+                  <span>2020-03-15</span>
+                </a>
+              </li>
+            </ul>
+            <a href="#" class="more">
+              <img src="images/main_con5_more.png" alt="순수치킨 소식 더보기">
+            </a>
+          </div>
+
+          <div class="event_slide con5">
+            <!-- Swiper -->
+            <div class="swiper-container event_visual">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="images/event_visual1.jpg" alt="인지도가 높으니 매출도 높다? 주요 치킨 브랜드 VS 순수치킨 매출 비교">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/event_visual2.jpg" alt="순수치킨이 통 크게 준비했닭! 김해 장유점 치킨 무료 증정 이벤트 비하인드 스토리">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/event_visual3.jpg" alt="무엇보다 중요한 오픈 후 초기 홍보! 가맹본부가 “전액” 지원합니다">
+                </div>
+                <div class="swiper-slide">
+                  <img src="images/event_visual4.jpg" alt="끝이 보이지 않는 불경기, 순수치킨의 매출은 거꾸로 간다?">
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- con6 -->
+      <div class="main_con6" id="question">
+        <div class="inner">
+          <!-- 창업문의 제목 -->
+          <div class="main_con6_tit">
+            <p><span>실시간</span> 창업문의</p>
+            <p>1833 - 2056</p>
+            <p>문의하여 주시면 담당자가 빠르게 연락드립니다.</p>
+          </div>
+
+          <!-- 창업문의 내용-->
+          <div class="question_con">
+            <form class="" action="" method="post">
+              <!-- 이름, 연락처, 창업희망지역, 내용 -->
+              <div class="input_box">
+                <input type="text" name="" value="" placeholder="이름">
+                <input type="text" name="" value="" placeholder="연락처">
+                <input type="text" name="" value="" placeholder="창업희망지역">
+              </div>
+              <textarea name="name"  placeholder="내용"></textarea>
+              <!-- 동의 체크박스, 내용보기, 문의하기버튼 -->
+              <div class="chekbox_box">
+                <input type="checkbox" id="agree" name="" value="">
+                <label for="agree"><span></span>위와 같이 개인정보를 수집·이용하는데 동의합니다.</label>
+              </div>
+              <!-- 동의내용보기 -->
+              <div class="agree_con_btn">
+                <a href="#">내용보기</a>
+                <div class="agree_con_pop">
+                  <strong>개인정보 수집·이용에 대한 동의</strong>
+                  <p>■ 수집하는 개인정보 항목</p>
+                  <span>
+                    회사는 상담, 서비스 신청 등을 위해 아래와 같은 개인정보를 수집하고 있습니다.<br>
+                    ο 수집항목 : 이름, 연락처 , 창업희망지역 , 접속 로그 , 쿠키 , 접속 IP 정보<br>
+                    ο 개인정보 수집방법 : 실시간 창업문의
+                  </span>
+                  <p>■ 개인정보의 수집 및 이용목적</p>
+                  <span>
+                    회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다.<br>
+                    ο 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산, 콘텐츠 제공
+                  </span>
+                  <p>■ 개인정보의 보유 및 이용기간</p>
+                  <span>회사는 개인정보 수집 및 이용목적이 달성된 후에는 예외 없이 해당 정보를 지체 없이 파기합니다.</span>
+                  <a href="#"><img src="images/agree_con_pop_close.png" alt="개인정보 수집·이용에 대한 동의 닫기"></a>
+                </div>
+              </div>
+              <!-- 문의하기버튼 -->
+              <button type="button" name="button" class="question_btn">문의하기</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+      <div class="footer_top">
+        <div class="inner">
+          <ul>
+            <li><a href="#">순수시대</a></li>
+            <li><a href="#">순수한 메뉴</a></li>
+            <li><a href="#">바른 창업하기</a></li>
+            <li><a href="#">매장안내</a></li>
+            <li><a href="#">새소식</a></li>
+          </ul>
+
+          <button type="button" name="button">TOP</button>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div class="inner">
+          <img src="images/footer_logo.png" alt="순수치킨">
+          <div class="txt_box">
+            <p>
+              <span>상호: 에스티씨 프랜차이저</span>
+              <span>주소: 서울특별시 강서구 마곡동로4길 15 601호</span>
+              <span>대표: 박두하</span>
+            </p>
+            <p>
+              <span>사업자등록번호: 713-18-00101</span>
+              <span>대표번호: 1833-2056</span>
+            </p>
+            <p>Copyright &copy; 순수치킨 All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- quick -->
+    <div id="quick">
+      <ul>
+        <li>
+          <a href="tel : 1833-2056">
+            <span class="ico"></span>
+            <p>창업상담</p>
+            <strong>1833-2056</strong>
+          </a>
+        </li>
+        <li>
+          <a href="#question">
+            <span class="ico"></span>
+            <p>창업문의</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- jquery -->
+    <script>
+      $(function(){
+      // gnb_pc
+          $("#gnb_pc").mouseleave(function(){
+            $("#gnb_pc .bar").css({"opacity": 0});
+            $(".gnb_bg").stop().fadeOut();
+            $("#gnb_pc .dep1>li").children(".dep2").removeClass("on");
+          });
+
+          //dep1마우스오버시 삼각형 bar나옴 / dep2배경
+          $("#gnb_pc .dep1").mouseover(function(){
+            $("#gnb_pc .bar").css({"opacity": 1});
+            $(".gnb_bg").stop().fadeIn();
+          });
+
+          $("#gnb_pc .dep1>li").mouseover(function(){
+            //dep1마우스오버시 삼각형 바가 li위치로 움직임
+            var a = $(this).position().left;
+            var b = $(this).width();
+            console.log(a);
+            console.log(b+"px");
+            $("#gnb_pc .bar").css({"width": b, "left": a+109});
+
+            //dep1마우스오버시 dep2나옴
+            $("#gnb_pc .dep1>li").children(".dep2").removeClass("on");
+            $(this).children(".dep2").addClass("on");
+          });
+
+          //dep2 li호버
+          $("#gnb_pc .dep2 li").hover(function(){
+            $("#gnb_pc .dep2 li").removeClass("on");
+            $(this).addClass("on");
+          },function(){
+            $("#gnb_pc .dep2 li").removeClass("on");
+          });
+
+      // gnb_m
+          // 메뉴버튼 클릭시 gnb_m나옴
+          $(".gnb_m_btn").click(function(e){
+            e.preventDefault();
+            $("#gnb_m").addClass("on");
+            //스크롤 정지
+            $("body").css({"position":"fixed", "overflow-Y":"scroll","width":"100%"});
+          });
+          // 닫기버튼 클릭시 gnb_m사라짐
+          $(".gnb_close_btn").click(function(e){
+            e.preventDefault();
+            $("#gnb_m").removeClass("on");
+            //스크롤 정지 풀기
+            $("body").css({"position":"relative", "overflow-Y":"hidden","width":"auto"});
+          });
+          // 1dep, 2dep
+          $("#gnb_m .dep1>li>a").click(function(){
+            $("#gnb_m .dep2").stop().slideUp();
+            $("#gnb_m .dep1>li>a").removeClass("on");
+            if (!$(this).siblings(".dep2").is(":visible")){
+              $(this).siblings(".dep2").stop().slideDown();
+              $(this).addClass("on");
+            }
+          });
+
+      // main_con3
+          $(".main_con3 a").hover(function(){
+            $(".main_con3").addClass("on");
+          },function(){
+            $(".main_con3").removeClass("on");
+          });
+
+      // main_con6
+          $(".agree_con_btn a").click(function(e){
+            e.preventDefault();
+            $(".agree_con_pop").toggle();
+          });
+          $(".agree_con_pop a").click(function(e){
+            e.preventDefault();
+            $(".agree_con_pop").hide();
+          });
+
+      // footer
+          // top버튼
+          $(".footer_top button").click(function(){
+            $("body, html").animate({scrollTop: 0},800);
+          });
+
+      // quick
+          // question 바로가기
+          $("#quick ul li:last-child").click(function(){
+            var question = $("#question").offset().top;
+            $("body, html").animate({scrollTop: question},800);
+          });
+      });
+    </script>
+
+    <!-- swiper -->
+    <script>
+      // main_visual 슬라이드
+      var swiper = new Swiper('.main_visual', {
+        slidesPerView: 1,
+        speed: 800,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+
+      // main_con2_visual 슬라이드
+      var swiper = new Swiper('.main_con2_visual', {
+        slidesPerView: 1,
+        speed: 800,
+        loop: true,
+        effect: 'fade',
+        autoplay: {
+          delay: 6000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.main_con2_pagination',
+          clickable: true,
+        },
+      });
+
+      // main_con4_open_box 슬라이드
+      var swiper = new Swiper('.open_visual', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        speed: 800,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: '.open_next',
+          prevEl: '.open_prev',
+        },
+      });
+
+      // main_con4_contract_box 슬라이드
+      var swiper = new Swiper('.contract_visual', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        speed: 800,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: '.contract_next',
+          prevEl: '.contract_prev',
+        },
+      });
+
+      // main_con5_event_visual 슬라이드
+      var swiper = new Swiper('.event_visual', {
+        slidesPerView: 1,
+        speed: 800,
+        loop: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+  </body>
+</html>
